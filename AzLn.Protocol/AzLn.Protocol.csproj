@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<GenerateDocumentationFile>false</GenerateDocumentationFile>
+		<AssemblyName>AzLn.Protocol</AssemblyName>
+		<RootNamespace>AzLn.Protocol</RootNamespace>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+		<Description>AzLn protocol</Description>
+		<Authors>mixa3607</Authors>
+		<AssemblyVersion>1.0.1</AssemblyVersion>
+	</PropertyGroup>
+
+	<!--
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<OutputPath>bin/$(Configuration)/</OutputPath>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<OutputPath>bin/$(Configuration)/</OutputPath>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	</PropertyGroup>-->
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+		<PackageReference Include="NLog" Version="4.7.2" />
+		<PackageReference Include="protobuf-net" Version="3.0.29" />
+	</ItemGroup>
+
+</Project>

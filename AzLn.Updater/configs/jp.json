@@ -1,0 +1,103 @@
+{
+  "name": "jp",
+  "type": "japanese",
+  "useGit": false,
+  "useTelegram": false,
+
+  "obb": {
+    "path": "main.5015.com.YoStarJP.AzurLane.obb",
+    "extractionThreads": 2
+  },
+  "git": {
+    "autoPush": false,
+    "url": "http://10.0.0.6:3000/NoOrg/AzLnDumpJp.git",
+    "path": "jp/",
+    "login": "az_dumper",
+    "password": "pass",
+    "userName": "login",
+    "email": "none"
+  },
+  "gate": {
+    "host": "blhxjploginapi.azurlane.jp",
+    "port": 80
+  },
+  "cdn": {
+    "url": "https://blhxstatic.akamaized.net/",
+    "platform": "android",
+    "userAgent":
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36",
+    "downloadThreads": 6
+  },
+  "branches": [
+    {
+      "type": "main",
+      "obb": {
+        "resourcesPath": "assets/AssetBundles/",
+        "hashesPath": "assets/hashes.csv",
+        "versionPath": "assets/version.txt"
+      },
+      "store": {
+        "rootPath": "jp/",
+        "resourcesPath": "resources-main/",
+        "hashesPath": "hashes.csv",
+        "versionPath": "version.txt"
+      }
+    },
+    {
+      "type": "cv",
+      "obb": {
+        "resourcesPath": "assets/AssetBundles/",
+        "hashesPath": "assets/hashes-cv.csv",
+        "versionPath": "assets/version-cv.txt"
+      },
+      "store": {
+        "rootPath": "jp/",
+        "resourcesPath": "resources-cv/",
+        "hashesPath": "hashes-cv.csv",
+        "versionPath": "version-cv.txt"
+      }
+    },
+    {
+      "type": "l2d",
+      "obb": {
+        "resourcesPath": "assets/AssetBundles/",
+        "hashesPath": "assets/hashes-live2d.csv",
+        "versionPath": "assets/version-live2d.txt"
+      },
+      "store": {
+        "rootPath": "jp/",
+        "resourcesPath": "resources-l2d/",
+        "hashesPath": "hashes-live2d.csv",
+        "versionPath": "version-live2d.txt"
+      }
+    },
+    {
+      "type": "pic",
+      "obb": {
+        "resourcesPath": "assets/AssetBundles/",
+        "hashesPath": "assets/hashes-pic.csv",
+        "versionPath": "assets/version-pic.txt"
+      },
+      "store": {
+        "rootPath": "jp/",
+        "resourcesPath": "resources-pic/",
+        "hashesPath": "hashes-pic.csv",
+        "versionPath": "version-pic.txt"
+      }
+    },
+    {
+      "type": "bgm",
+      "obb": {
+        "resourcesPath": "assets/AssetBundles/",
+        "hashesPath": "assets/hashes-bgm.csv",
+        "versionPath": "assets/version-bgm.txt"
+      },
+      "store": {
+        "rootPath": "jp/",
+        "resourcesPath": "resources-l2d/",
+        "hashesPath": "hashes-bgm.csv",
+        "versionPath": "version-bgm.txt"
+      }
+    }
+  ]
+}
